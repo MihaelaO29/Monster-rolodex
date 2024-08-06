@@ -1,12 +1,12 @@
 import './search-box.styles.css';
 
-const SearchBox = ({ placeholder, onChangeHandler}) => (
+const SearchBox = ({ placeholder, handleChange }) => (
     <input
-        className={'search-box ${className}'}
-        type='search'
-        placeholder={placeholder}
-        onChange={onChangeHandler}
+      className='search-box'
+      type='search'
+      placeholder={placeholder}
+      onChange={handleChange}
     />
-);
-
-export default SearchBox;
+  );
+  
+  export default SearchBox;
